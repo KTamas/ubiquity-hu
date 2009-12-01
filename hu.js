@@ -49,7 +49,19 @@ function makeParser() {
    {role: 'source', delimiter: 'ből'},
    {role: 'source', delimiter: 'ról'},
    {role: 'source', delimiter: 'ről'},
+   {role: "format", delimiter: "ban"},
+   {role: "format", delimiter: "ben"},   
+   {role: "format", delimiter: "ul"},   
+   {role: "format", delimiter: "ül"},      
  ];
+
+ hu.argumentNormalizer = new RegExp("(^(az?)\\s+)(.*)$", "i");
+ hu.normalizeArgument = function(input) {
+   let matches = input.match(this.argumentNormalizer);
+   if (matches != null)
+     return [{prefix:matches[1], newInput:matches[3], suffix:''}];
+   return [];
+ };
 
 
  hu.initializeLanguage = function() {
