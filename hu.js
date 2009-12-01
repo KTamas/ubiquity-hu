@@ -52,12 +52,27 @@ function makeParser() {
  ];
 
 
-// lásd: japán. egyetlen bibi, hogy könyörtelenül letép mindent, ami toldalékra emlékeztetne.
  hu.initializeLanguage = function() {
    this._patternCache.particleMatcher = new RegExp('('+[role.delimiter for each (role in this.roles)].join('|')+')','g');
  }
  hu.wordBreaker = function(input) {
-   return input.replace(this._patternCache.particleMatcher,'\u200b$1\u200b');
+   // Szedjük le a toldalékokat.
+   // Toldalék: minden, amit fent delimiterként definiáltunk.
+   // Ha a szavunk ige, nem bántjuk. (Különben: elviRA)
+   var verbs = [verb.name for each (verb in this._verbList)];
+   var szavankent = input.split(" ");
+   var uj = []
+   for (szo in szavankent) {
+     if ( verbs.indexOf(szavankent[szo]) == -1 ) {
+       // ha a szavunk nem egy ige       
+       uj.push(szavankent[szo].replace(this._patternCache.particleMatcher,'\u200b$1\u200b'));
+     } else {
+       // ha szavunk egy ige
+       // ...ööööö.
+       uj.push(szavankent[szo]);
+     }
+   }
+   return uj.join(" ");
  };
 
  hu.anaphora = ["ezt","azt","ezeket", "azokat","a kijelölést",];
