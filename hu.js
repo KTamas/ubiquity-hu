@@ -57,6 +57,7 @@ function makeParser() {
 
  hu.argumentNormalizer = new RegExp("(^(az?)\\s+)(.*)$", "i");
  hu.normalizeArgument = function(input) {
+   // pt-ből örököltük, tök jó.
    let matches = input.match(this.argumentNormalizer);
    if (matches != null)
      return [{prefix:matches[1], newInput:matches[3], suffix:''}];
