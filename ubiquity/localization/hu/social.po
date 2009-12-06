@@ -1,75 +1,67 @@
-# social.po
-# 
-# Localizers:
-# LOCALIZER <EMAIL>
-
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubiquity 0.5\n"
 "POT-Creation-Date: 2009-12-03 13:17+0100\n"
 
-
-
 #. twitter command:
 #. use | to separate multiple name values:
 msgctxt "twitter.names"
 msgid "twitter|tweet|share using twitter"
-msgstr ""
+msgstr "twitter|csiripeld|oszdd meg twitteren"
 
 msgctxt "twitter.help"
 msgid "You'll need a <a href=\"http://twitter.com\">Twitter account</a>, obviously.  If you're not already logged in you'll be asked to log in."
-msgstr ""
+msgstr "A használatához <a href=\"http://twitter.com\">Twitter felhasználói fiók</a> szükséges. Ha még nincs bejelentkezve, el fogom kérni a jelszót."
 
 msgctxt "twitter.description"
 msgid "Sets your Twitter status to a message of at most 160 characters."
-msgstr ""
+msgstr "A Twitter állapotot a maximum 160 karakteres üzenetre állítja."
 
 msgctxt "twitter.preview"
 msgid "Updates your Twitter status ${username} to:"
-msgstr ""
+msgstr "${username} Twitter állapotát erre frissíti:"
 
 msgctxt "twitter.preview"
 msgid "Characters remaining: <b>${chars}</b>"
-msgstr ""
+msgstr "Még <b>${chars}</b> karakter marad."
 
 msgctxt "twitter.preview"
 msgid "tip: tweet @mozillaubiquity for help"
-msgstr ""
+msgstr "tipp: üzenj @mozillaubiquity-nek segítségért (angolul)"
 
 msgctxt "twitter.preview"
 msgid "The last <b>${truncate}</b> characters will be truncated!"
-msgstr ""
+msgstr "Az utolsó <b>${truncate}</b> karakter le lesz vágva!"
 
 msgctxt "twitter.preview"
 msgid "(For user <b>${usernameText}</b>)"
-msgstr ""
+msgstr "(<b>${usernameText} felhasználónak</b>)"
 
 msgctxt "twitter.execute"
 msgid "requires a status to be entered"
-msgstr ""
+msgstr "adjon meg állapotüzenetet"
 
 msgctxt "twitter.execute"
 msgid "error - status not updated"
-msgstr ""
+msgstr "hiba - állapot nem frissült"
 
 msgctxt "twitter.execute"
 msgid "direct message sent"
-msgstr ""
+msgstr "közvetlen üzenet elküldve"
 
 msgctxt "twitter.execute"
 msgid "status updated"
-msgstr ""
-
+msgstr "állapot frissítve"
 
 #. digg command:
 #. use | to separate multiple name values:
 msgctxt "digg.names"
 msgid "digg|share using digg"
-msgstr ""
+msgstr "digg|oszdd meg diggen"
 
 msgctxt "digg.description"
 msgid "If not yet submitted, submits the page to Digg. Otherwise, it takes you to the story's Digg page."
-msgstr ""
+msgstr "Ha a lap még nincs megosztva Diggen, beküldi. Ha már igen, megnyitja az oldal Digg-lapját. "
 
 msgctxt "digg.preview"
 msgid "Submit or digg this page. Checking if this page has already been submitted..."
@@ -85,22 +77,21 @@ msgstr ""
 
 msgctxt "digg.preview"
 msgid "Description can only be 375 characters. The last <b>${chars}</b> characters will be truncated."
-msgstr ""
+msgstr "A leírás maximum 375 karakter lehet. Az utolsó <b>${truncate}</b> karakter le lesz vágva."
 
 msgctxt "digg.preview"
 msgid "Digg this page. This page already has <b>${diggs}</b> diggs."
 msgstr ""
 
-
 #. tinyurl command:
 #. use | to separate multiple name values:
 msgctxt "tinyurl.names"
 msgid "tinyurl"
-msgstr ""
+msgstr "tinyurl"
 
 msgctxt "tinyurl.description"
 msgid "Replaces the selected URL with a <a href=\"http://www.tinyurl.com\">TinyURL</a>."
-msgstr ""
+msgstr "Lecseréli a kijelölt URL-t a <a href=\"\">TinyURL</a> megfelelőjére"
 
 msgctxt "tinyurl.preview"
 msgid "Replaces the selected URL with..."
@@ -109,7 +100,6 @@ msgstr ""
 msgctxt "tinyurl.preview"
 msgid "Replaces the selected URL with <b>${tinyurl}</b>."
 msgstr ""
-
 
 #. share (on delicious) command:
 #. use | to separate multiple name values:
@@ -160,4 +150,3 @@ msgstr ""
 msgctxt "share (on delicious).execute"
 msgid "ERROR: Bookmark \"${description}\" NOT shared on delicious.com/${user_name}"
 msgstr ""
-

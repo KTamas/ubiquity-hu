@@ -1,14 +1,7 @@
-# calendar.po
-# 
-# Localizers:
-# LOCALIZER <EMAIL>
-
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubiquity 0.5\n"
 "POT-Creation-Date: 2009-12-03 13:09+0100\n"
-
-
 
 #. add to google calendar command:
 #. use | to separate multiple name values:
@@ -45,7 +38,6 @@ msgctxt "add to google calendar.execute"
 msgid "Error creating the event"
 msgstr ""
 
-
 #. check google calendar command:
 #. use | to separate multiple name values:
 msgctxt "check google calendar.names"
@@ -67,4 +59,3 @@ msgstr ""
 msgctxt "check google calendar.preview"
 msgid "Please <a href=\"${url}\" accesskey=\"L\">Login</a>."
 msgstr ""
-

@@ -1,14 +1,7 @@
-# email.po
-# 
-# Localizers:
-# LOCALIZER <EMAIL>
-
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubiquity 0.5\n"
 "POT-Creation-Date: 2009-12-03 13:17+0100\n"
-
-
 
 #. email command:
 #. use | to separate multiple name values:
@@ -42,7 +35,6 @@ msgstr ""
 msgctxt "email.execute"
 msgid "A gmonkey exception occurred."
 msgstr ""
-
 
 #. get last email command:
 #. use | to separate multiple name values:
@@ -78,7 +70,6 @@ msgctxt "get last email.execute"
 msgid "You have no new mail."
 msgstr ""
 
-
 #. get email address command:
 #. use | to separate multiple name values:
 msgctxt "get email address.names"
@@ -92,4 +83,3 @@ msgstr ""
 msgctxt "get email address.description"
 msgid "Looks up the email address of a person from your contacts list given their name. "
 msgstr ""
-

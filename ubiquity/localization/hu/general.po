@@ -1,147 +1,132 @@
-# general.po
-# 
-# Localizers:
-# LOCALIZER <EMAIL>
-
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubiquity 0.5\n"
 "POT-Creation-Date: 2009-12-03 13:17+0100\n"
 
-
 msgid "You have created the command: [ ${name} ]. You can edit its source-code with the command editor."
 msgstr ""
-
 
 #. bold command:
 #. use | to separate multiple name values:
 msgctxt "bold.names"
 msgid "bold"
-msgstr ""
+msgstr "félkövér"
 
 msgctxt "bold.description"
 msgid "If you're in a rich-text-edit area, makes the selected text bold."
-msgstr ""
+msgstr "A kijelölt szöveget félkövérré teszi formázott szövegdobozban."
 
 msgctxt "bold.execute"
 msgid "You're not in a rich text editing field."
-msgstr ""
-
+msgstr "Nem formázott szövegdobozban van."
 
 #. italicize command:
 #. use | to separate multiple name values:
 msgctxt "italicize.names"
 msgid "italicize"
-msgstr ""
+msgstr "dőlt"
 
 msgctxt "italicize.description"
 msgid "If you're in a rich-text-edit area, makes the selected text italic."
-msgstr ""
+msgstr "A kijelölt szöveget dőltté teszi formázott szövegdobozban."
 
 msgctxt "italicize.execute"
 msgid "You're not in a rich text editing field."
-msgstr ""
-
+msgstr "Nem formázott szövegdobozban van."
 
 #. underline command:
 #. use | to separate multiple name values:
 msgctxt "underline.names"
 msgid "underline"
-msgstr ""
+msgstr "aláhúz"
 
 msgctxt "underline.description"
 msgid "If you're in a rich-text-edit area, underlines the selected text."
-msgstr ""
+msgstr "A kijelölt szöveget aláhúzza formázott szövegdobozban"
 
 msgctxt "underline.execute"
 msgid "You're not in a rich text editing field."
-msgstr ""
-
+msgstr "Nem formázott szövegdobozban van."
 
 #. undo text edit command:
 #. use | to separate multiple name values:
 msgctxt "undo text edit.names"
 msgid "undo text edit"
-msgstr ""
+msgstr "visszavonás"
 
 msgctxt "undo text edit.description"
 msgid "If you're in a rich-text-edit area, undoes your latest style/formatting or page-editing changes."
-msgstr ""
+msgstr "A legutolsó formázási vagy szerkesztési műveletet visszavonja."
 
 msgctxt "undo text edit.execute"
 msgid "You're not in a rich text editing field."
-msgstr ""
-
+msgstr "Nem formázott szövegdobozban van."
 
 #. redo text edit command:
 #. use | to separate multiple name values:
 msgctxt "redo text edit.names"
 msgid "redo text edit"
-msgstr ""
+msgstr "újra"
 
 msgctxt "redo text edit.description"
 msgid "If you're in a rich-text-edit area, redoes your latest style/formatting or page-editing changes."
-msgstr ""
+msgstr "A legutolsó visszavont szerkesztést ismételten végrehajtja."
 
 msgctxt "redo text edit.execute"
 msgid "You're not in a rich text editing field."
-msgstr ""
-
+msgstr "Nem formázott szövegdobozban van."
 
 #. highlight command:
 #. use | to separate multiple name values:
 msgctxt "highlight.names"
 msgid "highlight|hilite"
-msgstr ""
+msgstr "kiemel|emeld ki"
 
 msgctxt "highlight.description"
 msgid "Highlights your current selection, like <span style=\"background: yellow; color: black;\">this</span>."
-msgstr ""
-
+msgstr "Kiemeli a kijelölt szöveget, <span style=\"background: yellow; color: black;\">így</span>"
 
 #. count words command:
 #. use | to separate multiple name values:
 msgctxt "count words.names"
 msgid "count words|word count"
-msgstr ""
+msgstr "szavak száma|számold meg a szavakat"
 
 msgctxt "count words.description"
 msgid "Displays the number of words in a selection."
-msgstr ""
+msgstr "Megmutatja hány szó van a kijelölésben."
 
 msgctxt "count words.preview"
 msgid "<b>${num}</b> words"
-msgstr ""
+msgstr "<b>${num}</b> szó"
 
 msgctxt "count words.execute"
 msgid "${num} words"
-msgstr ""
+msgstr "${num} szó"
 
 msgctxt "count words.execute"
 msgid "No words selected."
-msgstr ""
-
+msgstr "Nincs egy szó se kijelölve"
 
 #. link to wikipedia command:
 #. use | to separate multiple name values:
 msgctxt "link to wikipedia.names"
 msgid "link to wikipedia"
-msgstr ""
+msgstr "link a wikipédiára"
 
 msgctxt "link to wikipedia.description"
 msgid "Turns a phrase into a link to the matching Wikipedia article."
-msgstr ""
-
+msgstr "Linkel egy kifejezést a Wikipédia szócikkéhez"
 
 #. calculate command:
 #. use | to separate multiple name values:
 msgctxt "calculate.names"
 msgid "calculate|gcalculate"
-msgstr ""
+msgstr "számold|számítsd|számít|számol"
 
 msgctxt "calculate.help"
 msgid "Try <code>22/7, 25% of 700, sin(sqrt(ln(pi))), (1+i)^3, 15 mod 9, (5 choose 2) / 3!, speed of light in miles per hour, 3 dollars in euros, 242 in hex, MCMXVI in decimal</code>."
-msgstr ""
+msgstr "Például <code>22/7, 25% of 700, sin(sqrt(ln(pi))), (1+i)^3, 15 mod 9, (5 choose 2) / 3!, speed of light in miles per hour, 3 dollars in euros, 242 in hex, MCMXVI in decimal</code>."
 
 msgctxt "calculate.description"
 msgid "Calculates using\n"
@@ -155,14 +140,21 @@ msgid "Calculates using\n"
 "instead for simple expressions like\n"
 "<code>22/7</code>\n"
 "."
-msgstr ""
-
+msgstr "Számításokat végez a \n"
+"<a href=\"http://www.googleguide.com/help/calculator.html\">Google Calculator</a> segítségével\n"
+"ami tud mindent, amit egy tudományos számológép,\n"
+"    ismer olyan állandókat, mint a fény sebessége\n"
+"    és tud mértékegységek és pénznemek között is váltani.\n"
+"<br/>\n"
+"Az egyszerűbb műveletekhez, mint pl <code>22/7</code>, a \n"
+"<a href=\"http://jsfromhell.com/classes/math-parser\">MathParser</a>-t\n"
+"használja\n"
 
 #. translate command:
 #. use | to separate multiple name values:
 msgctxt "translate.names"
 msgid "translate"
-msgstr ""
+msgstr "fordítsd le"
 
 msgctxt "translate.help"
 msgid "You can specify the language to translate to,\n"
@@ -178,20 +170,19 @@ msgstr ""
 
 msgctxt "translate.description"
 msgid "Translates from one language to another."
-msgstr ""
+msgstr "Fordít egyik nyelvről a másikra."
 
 msgctxt "translate.preview"
 msgid "Translates ${url} into <b>${toLang}</b>."
-msgstr ""
+msgstr "${url} fordítása <b>{toLang}</b>"
 
 msgctxt "translate.preview"
 msgid "The text you selected exceeds the API limit."
-msgstr ""
+msgstr "A kijelölt szöveg hosszabb, mint amit az API-n keresztül le tudunk fordítani."
 
 msgctxt "translate.preview"
 msgid "Replaces the selected text with the <b>${toLang}</b> translation:"
 msgstr ""
-
 
 #. create bookmarklet command command:
 #. use | to separate multiple name values:
@@ -206,7 +197,6 @@ msgstr ""
 msgctxt "create bookmarklet command.description"
 msgid "Creates a new Ubiquity command from a bookmarklet."
 msgstr ""
-
 
 #. create search command command:
 #. use | to separate multiple name values:
@@ -234,4 +224,3 @@ msgstr ""
 msgctxt "create search command.execute"
 msgid "You need to focus a searchbox before running this command."
 msgstr ""
-

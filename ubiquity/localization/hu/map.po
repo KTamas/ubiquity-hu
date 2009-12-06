@@ -1,14 +1,7 @@
-# map.po
-# 
-# Localizers:
-# LOCALIZER <EMAIL>
-
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubiquity 0.5\n"
 "POT-Creation-Date: 2009-12-03 13:17+0100\n"
-
-
 
 #. map command:
 #. use | to separate multiple name values:
@@ -27,4 +20,3 @@ msgstr ""
 msgctxt "map.preview"
 msgid "Cannot insert in a non-editable space. Use 'edit page' for an editable page."
 msgstr ""
-

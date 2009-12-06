@@ -1,14 +1,7 @@
-# developer.po
-# 
-# Localizers:
-# LOCALIZER <EMAIL>
-
 msgid ""
 msgstr ""
 "Project-Id-Version: Ubiquity 0.5\n"
 "POT-Creation-Date: 2009-12-03 13:17+0100\n"
-
-
 
 #. highlight syntax command:
 #. use | to separate multiple name values:
@@ -24,7 +17,6 @@ msgctxt "highlight syntax.execute"
 msgid "You must select some code to syntax-hilight."
 msgstr ""
 
-
 #. view source command:
 #. use | to separate multiple name values:
 msgctxt "view source.names"
@@ -34,7 +26,6 @@ msgstr ""
 msgctxt "view source.description"
 msgid "Shows you the source-code of the specified URL."
 msgstr ""
-
 
 #. escape HTML entities command:
 #. use | to separate multiple name values:
@@ -49,7 +40,6 @@ msgstr ""
 msgctxt "escape HTML entities.execute"
 msgid "No text selected."
 msgstr ""
-
 
 #. run selector-selector command:
 #. use | to separate multiple name values:
@@ -106,4 +96,3 @@ msgid "<ul style=\"list-style-image:none\">\n"
 "  <li>Hovering on an element generates a matching selector.</li>\n"
 "</ul>"
 msgstr ""
-
