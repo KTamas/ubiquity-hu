@@ -11,19 +11,19 @@ msgstr "twitter|csiripeld|oszdd meg twitteren"
 
 msgctxt "twitter.help"
 msgid "You'll need a <a href=\"http://twitter.com\">Twitter account</a>, obviously.  If you're not already logged in you'll be asked to log in."
-msgstr "A használatához <a href=\"http://twitter.com\">Twitter felhasználói fiók</a> szükséges. Ha még nincs bejelentkezve, el fogom kérni a jelszót."
+msgstr "A használatához <a href=\"http://twitter.com\">Twitter felhasználói fiók</a> szükséges. Ha még nincs bejelentkezve, eløszor be kell majd jelentkeznie."
 
 msgctxt "twitter.description"
 msgid "Sets your Twitter status to a message of at most 160 characters."
-msgstr "A Twitter állapotot a maximum 160 karakteres üzenetre állítja."
+msgstr "A Twitter állapotát maximum 160 karakteres üzenetre állítja."
 
 msgctxt "twitter.preview"
 msgid "Updates your Twitter status ${username} to:"
-msgstr "${username} Twitter állapotát erre frissíti:"
+msgstr "${username} Twitter állapotát a következøre frissíti:"
 
 msgctxt "twitter.preview"
 msgid "Characters remaining: <b>${chars}</b>"
-msgstr "Még <b>${chars}</b> karakter marad."
+msgstr "Még <b>${chars}</b> karakter van."
 
 msgctxt "twitter.preview"
 msgid "tip: tweet @mozillaubiquity for help"
@@ -31,11 +31,11 @@ msgstr "tipp: üzenj @mozillaubiquity-nek segítségért (angolul)"
 
 msgctxt "twitter.preview"
 msgid "The last <b>${truncate}</b> characters will be truncated!"
-msgstr "Az utolsó <b>${truncate}</b> karakter le lesz vágva!"
+msgstr "Az utolsó <b>${truncate}</b> karakter le lesz vágva."
 
 msgctxt "twitter.preview"
 msgid "(For user <b>${usernameText}</b>)"
-msgstr "(<b>${usernameText} felhasználónak</b>)"
+msgstr "(<b>${usernameText} felhasználó számára</b>)"
 
 msgctxt "twitter.execute"
 msgid "requires a status to be entered"
@@ -57,23 +57,23 @@ msgstr "állapot frissítve"
 #. use | to separate multiple name values:
 msgctxt "digg.names"
 msgid "digg|share using digg"
-msgstr "digg|oszdd meg diggen"
+msgstr "digg|oszdd meg a diggen"
 
 msgctxt "digg.description"
 msgid "If not yet submitted, submits the page to Digg. Otherwise, it takes you to the story's Digg page."
-msgstr "Ha a lap még nincs megosztva Diggen, beküldi. Ha már igen, megnyitja az oldal Digg-lapját. "
+msgstr "Ha az oldal még nincs megosztva Diggen, beküldi. Ha már igen, megnyitja az oldal Digg-lapját. "
 
 msgctxt "digg.preview"
 msgid "Submit or digg this page. Checking if this page has already been submitted..."
-msgstr ""
+msgstr "Az oldal megosztása vagy diggelése. Ellenørzés, hogy az oldal meg van-e már osztva..."
 
 msgctxt "digg.preview"
 msgid "Submit this page to Digg"
-msgstr ""
+msgstr "Oldal megosztása a diggen"
 
 msgctxt "digg.preview"
 msgid "Submit this page to Digg with the description:"
-msgstr ""
+msgstr "Oldal megosztása a diggen a következø leírással:"
 
 msgctxt "digg.preview"
 msgid "Description can only be 375 characters. The last <b>${chars}</b> characters will be truncated."
@@ -81,7 +81,7 @@ msgstr "A leírás maximum 375 karakter lehet. Az utolsó <b>${truncate}</b> kar
 
 msgctxt "digg.preview"
 msgid "Digg this page. This page already has <b>${diggs}</b> diggs."
-msgstr ""
+msgstr "Az oldal diggelése. Az oldal már <b>${diggs}</b> diggel rendelkezik."
 
 #. tinyurl command:
 #. use | to separate multiple name values:
@@ -91,62 +91,62 @@ msgstr "tinyurl"
 
 msgctxt "tinyurl.description"
 msgid "Replaces the selected URL with a <a href=\"http://www.tinyurl.com\">TinyURL</a>."
-msgstr "Lecseréli a kijelölt URL-t a <a href=\"\">TinyURL</a> megfelelőjére"
+msgstr "Lecseréli a kijelölt URL-t a <a href=\"\">TinyURL</a>-es megfelelőjére"
 
 msgctxt "tinyurl.preview"
 msgid "Replaces the selected URL with..."
-msgstr ""
+msgstr "A kijelölt URL lecserelélése a következøvel:"
 
 msgctxt "tinyurl.preview"
 msgid "Replaces the selected URL with <b>${tinyurl}</b>."
-msgstr ""
+msgstr "A kijelölt URL lecserélése a következøvel: <b>${tinyurl}</b>."
 
 #. share (on delicious) command:
 #. use | to separate multiple name values:
 msgctxt "share (on delicious).names"
 msgid "share|delicious"
-msgstr ""
+msgstr "megosztás|delicious"
 
 msgctxt "share (on delicious).help"
 msgid "Select text on the page to use as notes, or enter your own text after the command word.  You can also assign tags to the bookmark with the \"tagged\" modifier, and alter the bookmark default page title with the \"entitled\" modifier.  Note that you must also already be logged in at delicious.com to use this command."
-msgstr ""
+msgstr "Jelölje ki az oldalon a megjegyzésnek szánt szöveget vagy adja meg azt a parancs után. Tageket a \"tagelés\" módosítóigevel rendelhet a könyvjelzøhöz, az oldal címét a \"címmel\" módosítóigével változtathatja meg. A parancs használata csak akkor lehetséges, ha már be van jelentkezve a delicious.com-on."
 
 msgctxt "share (on delicious).description"
 msgid "Share the current page as a bookmark on delicious.com"
-msgstr ""
+msgstr "Az oldal megosztása könyvjelzøként a delicious.com-on"
 
 msgctxt "share (on delicious).preview"
 msgid "This URL cannot be shared on ${delicious}."
-msgstr ""
+msgstr "Ez az URL nem osztható meg a ${delicious}-on."
 
 msgctxt "share (on delicious).preview"
 msgid "No active user found - log in at ${delicious} to use this command."
-msgstr ""
+msgstr "Nem található bejelentkezett felhasználó -- kérjük lépjen be a következø címen, hogy használhassa ezt a parancsot: ${delicious}"
 
 msgctxt "share (on delicious).preview"
 msgid "A title is required for bookmarks on ${delicious}"
-msgstr ""
+msgstr "Egy cím szükséges a könyvjelzø létrehozásához a ${delicious}-on"
 
 msgctxt "share (on delicious).preview"
 msgid "Share a bookmark at ${delicious}:"
-msgstr ""
+msgstr "Könyvjelzø megosztása a ${delicious}-on:"
 
 msgctxt "share (on delicious).execute"
 msgid "This URL cannot be shared on delicious."
-msgstr ""
+msgstr "Ez az URL nem osztható meg a deliciouson."
 
 msgctxt "share (on delicious).execute"
 msgid "No active user found - log in at delicious.com to use this command."
-msgstr ""
+msgstr "Nem található bejelentkezett felhasználó -- kérjük lépjen be a delicious.com-on hogy használhassa ezt a parancsot."
 
 msgctxt "share (on delicious).execute"
 msgid "A title is required for bookmarks at delicious.com"
-msgstr ""
+msgstr "Egy cím szükséges a könyvjelzø létrehozásához a delicious.com-on"
 
 msgctxt "share (on delicious).execute"
 msgid "Bookmark \"${description}\" shared at delicious.com/${user_name}"
-msgstr ""
+msgstr "A következø megosztása a delicious.com/${user_name} alatt: \"${description}\""
 
 msgctxt "share (on delicious).execute"
 msgid "ERROR: Bookmark \"${description}\" NOT shared on delicious.com/${user_name}"
-msgstr ""
+msgstr "HIBA: A következo NEM lett megosztva a delicious.com/${user_name} alatt: \"${description}\""
