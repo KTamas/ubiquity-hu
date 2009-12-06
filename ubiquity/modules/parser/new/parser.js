@@ -2474,7 +2474,7 @@ Parse.prototype = {
       // the verb was at the end of the input.
       displayFinal = parser.joindelimiter + verb;
     else
-      display = verb + (parser.usespaces ? " " : "");//parser.joindelimiter;
+      display = verb + (parser.usespaces ? " " : "");
     // Copy all of the arguments into an ordered array called argsArray.
     // This will then be in the right order for display.
     let argsArray = [];
